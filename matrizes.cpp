@@ -16,10 +16,11 @@ for (a=0; a<2; a++){
 }
 
 for (a=0; a<2; a++){
-    
+    cout<<"[ ";
   for(b=0;b<2; b++){
       cout<<y[a][b]<<" ";
   }
+  cout<<"]";
   cout<<endl;
 }
 
